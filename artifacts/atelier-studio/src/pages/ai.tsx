@@ -372,7 +372,7 @@ export default function AiHub() {
         <div className="space-y-4">
           <div className="flex items-center justify-between flex-wrap">
             <h2 className="text-sm font-semibold">Generation History</h2>
-            <Button size="sm" variant="ghost" onClick={() => refetch()} className="min-h-[44px] text-xs">
+            <Button size="sm" variant="ghost" onClick={() => refetch()} className="min-h-[44px] min-w-[44px] text-xs">
               Refresh
             </Button>
           </div>

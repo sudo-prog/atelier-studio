@@ -51,3 +51,9 @@ Thumbs.db
 .env*
 # But track .env.example as documentation
 !.env.example
+
+# Containment/trash folders (consolidation artifacts, do not push)
+_CONTAINMENT*/
+_TRASH*.tar.gz
+_TRASH_*/
+BACKUP_*/
